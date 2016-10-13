@@ -1,16 +1,13 @@
-package com.github.hyagosouzza.cs20162aula03;
-
-import com.github.hyagosouzza.cs20162aula03.Fibonacci;
+package com.github.hyagosouzza.cs20162aula03.exercicios2;
 import org.junit.Test;
 import static org.junit.Assert.*;
-
 public class FibonacciTest {
-
     @Test
     public void testFibo() {
         int n = 0;
         int expResult = 0;
-        int result = Fibonacci.fibo(n);
+        Fibonacci instance = new Fibonacci();
+        int result = instance.fibo(n);
         assertEquals(expResult, result);
     }
 
@@ -18,23 +15,24 @@ public class FibonacciTest {
     public void testFibo2() {
         int n = 1;
         int expResult = 1;
-        int result = Fibonacci.fibo(n);
+        Fibonacci instance = new Fibonacci();
+        int result = instance.fibo(n);
         assertEquals(expResult, result);
     }
-
     @Test
     public void testFibo3() {
         int n = 2;
         int expResult = 1;
-        int result = Fibonacci.fibo(n);
+        Fibonacci instance = new Fibonacci();
+        int result = instance.fibo(n);
         assertEquals(expResult, result);
     }
-
     @Test
     public void testFibo4() {
         int n = 3;
         int expResult = 2;
-        int result = Fibonacci.fibo(n);
+        Fibonacci instance = new Fibonacci();
+        int result = instance.fibo(n);
         assertEquals(expResult, result);
     }
 
@@ -42,32 +40,32 @@ public class FibonacciTest {
     public void testFibo5() {
         int n = 4;
         int expResult = 3;
-        int result = Fibonacci.fibo(n);
+        Fibonacci instance = new Fibonacci();
+        int result = instance.fibo(n);
         assertEquals(expResult, result);
     }
-
     @Test
     public void testFibo6() {
         int n = 5;
         int expResult = 5;
-        int result = Fibonacci.fibo(n);
+        Fibonacci instance = new Fibonacci();
+        int result = instance.fibo(n);
         assertEquals(expResult, result);
     }
-
     @Test
     public void testFibo7() {
         int n = 6;
         int expResult = 8;
-        int result = Fibonacci.fibo(n);
+        Fibonacci instance = new Fibonacci();
+        int result = instance.fibo(n);
         assertEquals(expResult, result);
     }
-
     @Test
     public void testFibo8() {
         int n = 7;
         int expResult = 13;
-        int result = Fibonacci.fibo(n);
+        Fibonacci instance = new Fibonacci();
+        int result = instance.fibo(n);
         assertEquals(expResult, result);
     }
-
 }
