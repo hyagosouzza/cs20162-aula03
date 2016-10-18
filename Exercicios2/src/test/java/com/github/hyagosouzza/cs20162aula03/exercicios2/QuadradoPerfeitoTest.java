@@ -1,7 +1,11 @@
 package com.github.hyagosouzza.cs20162aula03.exercicios2;
+
 import org.junit.Test;
+
 import static org.junit.Assert.*;
+
 public class QuadradoPerfeitoTest {
+    
     @Test
     public void testQuadPer() {
         int n = 1;
@@ -10,6 +14,7 @@ public class QuadradoPerfeitoTest {
         boolean result = instance.quadPer(n);
         assertEquals(expResult, result);
     }
+    
     @Test
     public void testQuadPer2() {
         int n = 10;
@@ -18,6 +23,7 @@ public class QuadradoPerfeitoTest {
         boolean result = instance.quadPer(n);
         assertEquals(expResult, result);
     }
+    
     @Test
     public void testQuadPer3() {
         int n = 144;
@@ -26,6 +32,7 @@ public class QuadradoPerfeitoTest {
         boolean result = instance.quadPer(n);
         assertEquals(expResult, result);
     }
+    
     @Test
     public void testQuadPer4() {
         int n = 64;
@@ -34,6 +41,7 @@ public class QuadradoPerfeitoTest {
         boolean result = instance.quadPer(n);
         assertEquals(expResult, result);
     }
+    
     @Test
     public void testQuadPer5() {
         int n = 2;
@@ -42,6 +50,7 @@ public class QuadradoPerfeitoTest {
         boolean result = instance.quadPer(n);
         assertEquals(expResult, result);
     }
+    
     @Test
     public void testQuadPer6() {
         int n = 9;
@@ -50,6 +59,7 @@ public class QuadradoPerfeitoTest {
         boolean result = instance.quadPer(n);
         assertEquals(expResult, result);
     }
+    
     @Test
     public void testQuadPer7() {
         int n = 3;
