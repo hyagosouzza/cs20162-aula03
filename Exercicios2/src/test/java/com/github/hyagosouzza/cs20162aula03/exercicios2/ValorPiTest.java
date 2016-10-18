@@ -1,7 +1,11 @@
 package com.github.hyagosouzza.cs20162aula03.exercicios2;
+
 import org.junit.Test;
+
 import static org.junit.Assert.*;
+
 public class ValorPiTest {
+    
     @Test
     public void testAcharPi() {
         int n = 1;
@@ -10,6 +14,7 @@ public class ValorPiTest {
         double result = instance.acharPi(n);
         assertEquals(expResult, result, 0.0);
     }
+    
     @Test
     public void testAcharPi2() {
         int n = 2;
@@ -18,6 +23,7 @@ public class ValorPiTest {
         double result = instance.acharPi(n);
         assertEquals(expResult, result, 0.0);
     }
+    
     @Test
     public void testAcharPi3() {
         int n = 3;
@@ -26,6 +32,7 @@ public class ValorPiTest {
         double result = instance.acharPi(n);
         assertEquals(expResult, result, 0.0);
     }
+    
     @Test
     public void testAcharPi4() {
         int n = 5;
@@ -34,6 +41,7 @@ public class ValorPiTest {
         double result = instance.acharPi(n);
         assertEquals(expResult, result, 0.0);
     }
+    
     @Test
     public void testAcharPi5() {
         int n = 10;
@@ -42,6 +50,7 @@ public class ValorPiTest {
         double result = instance.acharPi(n);
         assertEquals(expResult, result, 0.0);
     }
+    
     @Test
     public void testAcharPi6() {
         int n = 50;
@@ -50,6 +59,7 @@ public class ValorPiTest {
         double result = instance.acharPi(n);
         assertEquals(expResult, result, 0.0);
     }
+    
     @Test
     public void testAcharPi7() {
         int n = 25;
@@ -58,6 +68,7 @@ public class ValorPiTest {
         double result = instance.acharPi(n);
         assertEquals(expResult, result, 0.0);
     }
+    
     @Test
     public void testAcharPi8() {
         int n = 99;
