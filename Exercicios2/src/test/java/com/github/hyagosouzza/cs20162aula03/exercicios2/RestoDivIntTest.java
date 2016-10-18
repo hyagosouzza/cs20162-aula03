@@ -1,7 +1,11 @@
 package com.github.hyagosouzza.cs20162aula03.exercicios2;
+
 import org.junit.Test;
+
 import static org.junit.Assert.*;
+
 public class RestoDivIntTest {
+    
     @Test
     public void testMod() {
         int a = 1;
@@ -11,6 +15,7 @@ public class RestoDivIntTest {
         int result = instance.mod(a, b);
         assertEquals(expResult, result);
     }
+    
     @Test
     public void testMod2() {
         int a = 35;
@@ -20,6 +25,7 @@ public class RestoDivIntTest {
         int result = instance.mod(a, b);
         assertEquals(expResult, result);
     }
+    
     @Test
     public void testMod3() {
         int a = 9;
@@ -29,6 +35,7 @@ public class RestoDivIntTest {
         int result = instance.mod(a, b);
         assertEquals(expResult, result);
     }
+    
     @Test
     public void testMod4() {
         int a = 64;
@@ -38,6 +45,7 @@ public class RestoDivIntTest {
         int result = instance.mod(a, b);
         assertEquals(expResult, result);
     }
+    
     @Test
     public void testMod5() {
         int a = 4;
@@ -47,6 +55,7 @@ public class RestoDivIntTest {
         int result = instance.mod(a, b);
         assertEquals(expResult, result);
     }
+    
     @Test
     public void testMod6() {
         int a = 10;
@@ -56,6 +65,7 @@ public class RestoDivIntTest {
         int result = instance.mod(a, b);
         assertEquals(expResult, result);
     }
+    
     @Test
     public void testMod7() {
         int a = 5;
@@ -65,6 +75,7 @@ public class RestoDivIntTest {
         int result = instance.mod(a, b);
         assertEquals(expResult, result);
     }
+    
     @Test
     public void testMod8() {
         int a = 2;
@@ -74,6 +85,7 @@ public class RestoDivIntTest {
         int result = instance.mod(a, b);
         assertEquals(expResult, result);
     }
+    
     @Test
     public void testMod9() {
         int a = 1;
