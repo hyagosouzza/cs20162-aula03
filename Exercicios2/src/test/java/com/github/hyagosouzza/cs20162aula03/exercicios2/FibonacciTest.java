@@ -1,7 +1,11 @@
 package com.github.hyagosouzza.cs20162aula03.exercicios2;
+
 import org.junit.Test;
+
 import static org.junit.Assert.*;
+
 public class FibonacciTest {
+    
     @Test
     public void testFibo() {
         int n = 0;
@@ -44,6 +48,7 @@ public class FibonacciTest {
         int result = instance.fibo(n);
         assertEquals(expResult, result);
     }
+    
     @Test
     public void testFibo6() {
         int n = 5;
@@ -52,6 +57,7 @@ public class FibonacciTest {
         int result = instance.fibo(n);
         assertEquals(expResult, result);
     }
+    
     @Test
     public void testFibo7() {
         int n = 6;
@@ -60,6 +66,7 @@ public class FibonacciTest {
         int result = instance.fibo(n);
         assertEquals(expResult, result);
     }
+    
     @Test
     public void testFibo8() {
         int n = 7;
