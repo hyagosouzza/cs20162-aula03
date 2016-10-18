@@ -1,7 +1,11 @@
 package com.github.hyagosouzza.cs20162aula03.exercicios2;
+
 import org.junit.Test;
+
 import static org.junit.Assert.*;
+
 public class RazaoAureaTest {
+    
     @Test
     public void testRazaoAurea() {
         int x = 0;
@@ -12,6 +16,7 @@ public class RazaoAureaTest {
         double result = instance.razaoAurea(x, y, z);
         assertEquals(expResult, result, 0.0);
     }
+    
     @Test
     public void testRazaoAurea2() {
         int x = 0;
@@ -22,6 +27,7 @@ public class RazaoAureaTest {
         double result = instance.razaoAurea(x, y, z);
         assertEquals(expResult, result, 0.0);
     }
+    
     @Test
     public void testRazaoAurea3() {
         int x = 1;
@@ -32,6 +38,7 @@ public class RazaoAureaTest {
         double result = instance.razaoAurea(x, y, z);
         assertEquals(expResult, result, 0.0);
     }
+    
     @Test
     public void testRazaoAurea4() {
         int x = 1;
@@ -42,6 +49,7 @@ public class RazaoAureaTest {
         double result = instance.razaoAurea(x, y, z);
         assertEquals(expResult, result, 0.0);
     }
+    
     @Test
     public void testRazaoAurea5() {
         int x = 0;
@@ -52,6 +60,7 @@ public class RazaoAureaTest {
         double result = instance.razaoAurea(x, y, z);
         assertEquals(expResult, result, 0.0);
     }
+    
     @Test
     public void testRazaoAurea6() {
         int x = 0;
@@ -62,6 +71,7 @@ public class RazaoAureaTest {
         double result = instance.razaoAurea(x, y, z);
         assertEquals(expResult, result, 0.0);
     }
+    
     @Test
     public void testRazaoAurea7() {
         int x = 6;
@@ -72,6 +82,7 @@ public class RazaoAureaTest {
         double result = instance.razaoAurea(x, y, z);
         assertEquals(expResult, result, 0.0);
     }
+    
     @Test
     public void testRazaoAurea8() {
         int x = 2;
@@ -82,6 +93,7 @@ public class RazaoAureaTest {
         double result = instance.razaoAurea(x, y, z);
         assertEquals(expResult, result, 0.0);
     }
+    
     @Test
     public void testRazaoAurea9() {
         int x = 64;
