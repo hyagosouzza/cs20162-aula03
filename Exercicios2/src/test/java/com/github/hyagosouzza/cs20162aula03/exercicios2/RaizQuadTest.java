@@ -1,7 +1,11 @@
 package com.github.hyagosouzza.cs20162aula03.exercicios2;
+
 import org.junit.Test;
+
 import static org.junit.Assert.*;
+
 public class RaizQuadTest {
+    
     @Test
     public void testRaizQuadrada() {
         int n = 0;
@@ -11,6 +15,7 @@ public class RaizQuadTest {
         double result = instance.raizQuadrada(n, i);
         assertEquals(expResult, result, 0.0);
     }
+    
     @Test
     public void testRaizQuadrada2() {
         int n = 7;
@@ -20,6 +25,7 @@ public class RaizQuadTest {
         double result = instance.raizQuadrada(n, i);
         assertEquals(expResult, result, 0.0);
     }
+    
     @Test
     public void testRaizQuadrada3() {
         int n = 81;
@@ -29,6 +35,7 @@ public class RaizQuadTest {
         double result = instance.raizQuadrada(n, i);
         assertEquals(expResult, result, 0.0);
     }
+    
     @Test
     public void testRaizQuadrada4() {
         int n = 49;
@@ -38,6 +45,7 @@ public class RaizQuadTest {
         double result = instance.raizQuadrada(n, i);
         assertEquals(expResult, result, 0.0);
     }
+    
     @Test
     public void testRaizQuadrada5() {
         int n = 25;
@@ -47,6 +55,7 @@ public class RaizQuadTest {
         double result = instance.raizQuadrada(n, i);
         assertEquals(expResult, result, 0.0);
     }
+    
     @Test
     public void testRaizQuadrada6() {
         int n = 9;
@@ -56,6 +65,7 @@ public class RaizQuadTest {
         double result = instance.raizQuadrada(n, i);
         assertEquals(expResult, result, 0.0);
     }
+    
     @Test
     public void testRaizQuadrada7() {
         int n = 9;
@@ -75,6 +85,7 @@ public class RaizQuadTest {
         double result = instance.raizQuadrada(n, i);
         assertEquals(expResult, result, 0.0);
     }
+    
     @Test
     public void testRaizQuadrada9() {
         int n = 2;
