@@ -9,8 +9,8 @@ package com.github.hyagosouzza.cs20162aula03.exercicios2;
  * Classe para utilizar o método logNat.
  * @version 1.1
  */
-public class LogaritmoNatural {
-    
+public class LogaritmoNatural
+{
     /**
      * Metodo para retornar o fatorial de n.
      * @param n final int
