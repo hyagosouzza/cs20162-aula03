@@ -9,8 +9,8 @@ package com.github.hyagosouzza.cs20162aula03.exercicios2;
  * Classe para utilizar o método somaNaturais.
  * @version 1.1
  */
-public class SomatorioElementar
-{
+public class SomatorioElementar {
+
     /**
      * Metodo para retornar a somatória envolvendo números naturais.
      * @param n final int
