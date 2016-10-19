@@ -2,15 +2,17 @@
  * Copyright (c) 2016. Fábrica de Software - Instituto de Informática (UFG)
  * Creative Commons Attribution 4.0 International License.
  */
+
 package com.github.hyagosouzza.cs20162aula03.exercicios2;
-/**Classe para utilizar o método quadPer.
- * @author Hyago Vieira de Souza
+
+/**
+ * Classe para utilizar o método quadPer.
  * @version 1.1
  */
 public class QuadradoPerfeito {
-    /**Metodo para retornar se o número é um quadrado perfeito.
-     * @author Hyago Vieira de Souza
-     * @since Relase 01 da aplicação
+    
+    /**
+     * Metodo para retornar se o número é um quadrado perfeito.
      * @param n final int
      * @return boolean - true
      */
