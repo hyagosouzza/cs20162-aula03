@@ -9,8 +9,8 @@ package com.github.hyagosouzza.cs20162aula03.exercicios2;
  * Classe para utilizar o método raizQuadrada.
  * @version 1.1
  */
-public class RaizQuad
-{
+public class RaizQuad {
+
     /**
      * Metodo para retornar a raiz quadrada.
      * @param n final int
