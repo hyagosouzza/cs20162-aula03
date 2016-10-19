@@ -9,8 +9,8 @@ package com.github.hyagosouzza.cs20162aula03.exercicios2;
  * Classe para utilizar o método razaoAurea.
  * @version 1.1
  */
-public class RazaoAurea
-{
+public class RazaoAurea {
+
     /**
      * Metodo para retornar a razão áurea.
      * @param x final int
