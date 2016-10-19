@@ -9,8 +9,8 @@ package com.github.hyagosouzza.cs20162aula03.exercicios2;
  * Classe para utilizar o método fibo.
  * @version 1.1
  */
-public class Fibonacci
-{
+public class Fibonacci {
+
     /**
      * Metodo para obtenção do n-ésimo número de Fibonacci.
      * @param n final int
