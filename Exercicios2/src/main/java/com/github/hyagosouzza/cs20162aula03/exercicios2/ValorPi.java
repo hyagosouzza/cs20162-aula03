@@ -2,15 +2,17 @@
  * Copyright (c) 2016. Fábrica de Software - Instituto de Informática (UFG)
  * Creative Commons Attribution 4.0 International License.
  */
+
 package com.github.hyagosouzza.cs20162aula03.exercicios2;
-/**Classe para utilizar o método acharPi.
- * @author Hyago Vieira de Souza
+
+/**
+ * Classe para utilizar o método acharPi.
  * @version 1.1
  */
 public class ValorPi {
-    /**Metodo para retornar o valor de PI.
-     * @author Hyago Vieira de Souza
-     * @since Relase 01 da aplicação
+    
+    /**
+     * Metodo para retornar o valor de PI.
      * @param n final int
      * @return double - p - PI
      */
