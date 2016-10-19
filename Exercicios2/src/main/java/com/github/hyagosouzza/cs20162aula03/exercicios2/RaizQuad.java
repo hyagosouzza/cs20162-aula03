@@ -19,7 +19,7 @@ public class RaizQuad
      */
     public final double raizQuadrada(final int n, final int i) {
         double r = 1;
-        int ii = 1;
+        int ii = i;
         while (0 <= ii) {
             r = (r + n / r) / 2;
             ii = ii - 1;
