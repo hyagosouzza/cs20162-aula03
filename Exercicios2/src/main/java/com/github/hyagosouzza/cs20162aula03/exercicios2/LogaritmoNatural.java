@@ -2,15 +2,17 @@
  * Copyright (c) 2016. Fábrica de Software - Instituto de Informática (UFG)
  * Creative Commons Attribution 4.0 International License.
  */
+
 package com.github.hyagosouzza.cs20162aula03.exercicios2;
-/**Classe para utilizar o método logNat.
- * @author Hyago Vieira de Souza
+
+/**
+ * Classe para utilizar o método logNat.
  * @version 1.1
  */
 public class LogaritmoNatural {
-    /**Metodo para retornar o fatorial de n.
-     * @author Hyago Vieira de Souza
-     * @since Relase 01 da aplicação
+    
+    /**
+     * Metodo para retornar o fatorial de n.
      * @param n final int
      * @return float - f - fatorial
      */
@@ -23,9 +25,9 @@ public class LogaritmoNatural {
         }
         return f;
     }
-    /**Metodo para retornar o resultado de "n" elevado a "m".
-     * @author Hyago Vieira de Souza
-     * @since Relase 01 da aplicação
+    
+    /**
+     * Metodo para retornar o resultado de "n" elevado a "m".
      * @param n final int
      * @param m final int
      * @return float - resultado
@@ -39,9 +41,9 @@ public class LogaritmoNatural {
         }
         return resultado;
     }
-    /**Metodo para retornar o resultado do logaritmo natural.
-     * @author Hyago Vieira de Souza
-     * @since Relase 01 da aplicação
+    
+    /**
+     * Metodo para retornar o resultado do logaritmo natural.
      * @param a final int
      * @param b final int
      * @return float - e - resultado
